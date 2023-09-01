@@ -416,3 +416,24 @@ class eGachaDrawType(Enum):
     SpecialTicket = 9
     SpFesCmapaign10Shot = 10
     INVALID_VALUE = -1
+
+class eChargeActionType(Enum):
+    TAP = 1
+    MOVE = 2
+
+class eSupportType(Enum):
+    DUNGEON = 0
+    CLAN_BATTLE = 1
+    TOWER = 2
+    TOWER_EX = 3
+    GLOBAL_RAID = 4
+    QUEST = 5
+    TowerCloister = 6
+    EVENT = 7
+    SPACE_BATTLE = 8
+
+class ePositionSide(Enum):
+    NONE = 0 # None is keyword
+    Left = 1
+    OnTheLine = 2
+    Right = 3
